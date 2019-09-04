@@ -8,5 +8,10 @@
 | **H** | 26 | 27 | 28 | 29 | 30 | 31 | 32 | 33 | 34 | 35 | 36 | 37 | 38 |
 | **S** | 39 | 40 | 41 | 42 | 43 | 44 | 45 | 46 | 47 | 48 | 49 | 50 | 51 |
 
+## How to run
+```
+$ go test -v
+```
+
 ## Test result
-<img width="600" alt="Screen Shot 2562-09-04 at 22 02 10" src="https://user-images.githubusercontent.com/13601750/64266964-c1191500-cf5f-11e9-88ce-b40496a675a5.png">
+<img width="650" alt="Screen Shot 2562-09-04 at 22 02 10" src="https://user-images.githubusercontent.com/13601750/64266964-c1191500-cf5f-11e9-88ce-b40496a675a5.png">
