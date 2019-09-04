@@ -6,7 +6,7 @@ func main() {
 	fmt.Printf("Result is : %s \n", cardAt(51))
 }
 
-// cardAt -
+// cardAt - return suit & rank card
 func cardAt(n int) string {
 
 	if n < 0 || n > 51 {
@@ -19,6 +19,6 @@ func cardAt(n int) string {
 	// Club (♧), Diamond (♢), Heart (♡), Spade (♤)
 	suit := []string{"C", "D", "H", "S"}
 
-	// Use modulo and division to finding an index of rank & suit
+	// Use modulo and division to find an index of rank & suit
 	return fmt.Sprintf("%s%s", rank[n%13], suit[n/13])
 }
